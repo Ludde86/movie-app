@@ -52,7 +52,7 @@ const Home = () => (
 		</div>
 
 		<Footer />
-		<style psx>{`
+		<style psx="true">{`
   .home-page {
     padding-top: 80px;
   }
