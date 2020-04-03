@@ -1,6 +1,8 @@
+import { Fragment } from 'react';
+
 const SideMenu = () => {
 	return (
-		<div className="col-lg-3">
+		<Fragment>
 			<h1 className="my-4">Shop Name</h1>
 			<div className="list-group">
 				<a href="#" className="list-group-item">
@@ -13,7 +15,7 @@ const SideMenu = () => {
 					Category 3
 				</a>
 			</div>
-		</div>
+		</Fragment>
 	);
 };
 
